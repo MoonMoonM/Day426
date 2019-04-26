@@ -21,8 +21,6 @@ public class MybatisUtils {
             e.printStackTrace();
         }
     }
-
-
     // 获取SqlSession
     public static SqlSession getSqlSession(boolean flag) {
         return sqlSessionFactory.openSession(flag);//  true:自动提交事务
